@@ -22,7 +22,7 @@ todo's:
 	- how are we generating the clock tickings?
 	- multikernel thing to fix
 		- try dotproduct apps
-3. altera:
+3. altera: (resolved. example command:quartus_pow MAX4MAIAPeripheryTop --default_input_io_toggle_rate=12.5% --default_toggle_rate=12.5% . please save the new make file. test for arginout starts at 11:23)
 	- see if it is possble to take the compile results from maxj
 	- try to only get hdl files and synthesize using the gui (high priority)
 		- try utilizing the generated reports from altera (medium)
@@ -30,6 +30,7 @@ todo's:
 	- how would the power / area change according to different words / size
 5. generate verilog for CU (medium, can be done quick)
 	- ASIC to dramsim2?
+	- function codegen unit tests
 2. get the simulation working (medium and paused, hard to do)
 	- why freezing? possiblity something wrong with the modelsim library. Should I try the downloaded version?
 7. function codegen unit tests
@@ -46,7 +47,7 @@ build:
 	[mkdir] Created dir: /local/ssd/home/tianzhao/examples/maxcompiler-manager-tutorial/examples/manager-chap05-example01-simplehdl/EngineCode/dist
 	[mkdir] Created dir: /local/ssd/home/tianzhao/examples/maxcompiler-manager-tutorial/examples/manager-chap05-example01-simplehdl/EngineCode/dist/bin
 	[copy] Copying 1 file to /local/ssd/home/tianzhao/examples/maxcompiler-manager-tutorial/examples/manager-chap05-example01-simplehdl/EngineCode/dist/bin
-	[maxjcompiler] 
+	[maxjcompiler]
 	[maxjcompiler] 
 	[maxjcompiler] Compiling to folder /local/ssd/home/tianzhao/examples/maxcompiler-manager-tutorial/examples/manager-chap05-example01-simplehdl/EngineCode/dist/bin
 
